@@ -6,7 +6,7 @@ EMAIL_REGEX = re.compile(r'^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]+$')
 
 
 class User:
-    db = "login_reg"
+    db = "login_and_registration"
 
     def __init__(self, data):
         self.id = data['id']
